@@ -1,8 +1,7 @@
 name: Greet Everyone
 # This workflow is triggered on pushes to the repository.
 on: 
-  push:
-    branches: [dev]
+  workflow_dispatch:
 
 jobs:
   build:
